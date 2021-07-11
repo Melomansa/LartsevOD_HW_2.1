@@ -16,19 +16,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" id="g0H-rx-s8h">
-                                <rect key="frame" x="20" y="44" width="374" height="409"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor"/>
-                            </view>
-                            <view contentMode="scaleToFill" id="YC7-pr-kKf">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YC7-pr-kKf">
                                 <rect key="frame" x="20" y="461" width="374" height="409"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g0H-rx-s8h">
+                                <rect key="frame" x="20" y="44" width="374" height="409"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="g0H-rx-s8h" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="2tn-0K-rhL"/>
+                            <constraint firstItem="g0H-rx-s8h" firstAttribute="trailing" secondItem="YC7-pr-kKf" secondAttribute="trailing" id="92y-Yw-ppM"/>
+                            <constraint firstItem="g0H-rx-s8h" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.903382" id="9tF-uT-2Xt"/>
+                            <constraint firstItem="YC7-pr-kKf" firstAttribute="top" secondItem="g0H-rx-s8h" secondAttribute="bottom" constant="8" id="QTd-PI-YpS"/>
+                            <constraint firstItem="YC7-pr-kKf" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.903382" id="YZF-9E-jJ8"/>
+                            <constraint firstAttribute="bottom" secondItem="g0H-rx-s8h" secondAttribute="bottom" constant="443" id="h0m-M2-dkG"/>
+                            <constraint firstItem="g0H-rx-s8h" firstAttribute="leading" secondItem="YC7-pr-kKf" secondAttribute="leading" id="n9e-En-4dz"/>
+                            <constraint firstItem="g0H-rx-s8h" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rDT-MW-Co1"/>
+                            <constraint firstItem="g0H-rx-s8h" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="s3U-aX-k4j"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
