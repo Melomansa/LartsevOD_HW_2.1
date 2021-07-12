@@ -13,7 +13,6 @@
 		3E24BB88269B24AE003CC13B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E24BB86269B24AE003CC13B /* Main.storyboard */; };
 		3E24BB8A269B24B2003CC13B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E24BB89269B24B2003CC13B /* Assets.xcassets */; };
 		3E24BB8D269B24B2003CC13B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E24BB8B269B24B2003CC13B /* LaunchScreen.storyboard */; };
-		3E24BB95269B682B003CC13B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E24BB94269B682B003CC13B /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		3E24BB89269B24B2003CC13B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E24BB8C269B24B2003CC13B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E24BB8E269B24B2003CC13B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E24BB94269B682B003CC13B /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +60,6 @@
 				3E24BB82269B24AE003CC13B /* SceneDelegate.swift */,
 				3E24BB84269B24AE003CC13B /* ViewController.swift */,
 				3E24BB86269B24AE003CC13B /* Main.storyboard */,
-				3E24BB94269B682B003CC13B /* Storyboard.storyboard */,
 				3E24BB89269B24B2003CC13B /* Assets.xcassets */,
 				3E24BB8B269B24B2003CC13B /* LaunchScreen.storyboard */,
 				3E24BB8E269B24B2003CC13B /* Info.plist */,
@@ -128,7 +125,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E24BB8D269B24B2003CC13B /* LaunchScreen.storyboard in Resources */,
-				3E24BB95269B682B003CC13B /* Storyboard.storyboard in Resources */,
 				3E24BB8A269B24B2003CC13B /* Assets.xcassets in Resources */,
 				3E24BB88269B24AE003CC13B /* Main.storyboard in Resources */,
 			);
